@@ -1,0 +1,130 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background: black;
+}
+
+.objeto1 {
+    background-color: red;
+    height: 1000px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+
+
+}
+
+.objeto2 {
+    background-color: yellow;
+    height: 1000px;
+    width: 50%;    
+    display: none;
+
+}
+
+.objeto3 {
+    background-color: blue;
+    height: 1000px;
+    width: 50%;    
+    margin: 125px 50px 125px 50px;
+
+}
+
+.objeto4 {
+
+    background-color: magenta;
+    height: 1000px;
+    width: 50%;
+    display: none;
+}
+
+.objeto5 {
+    background-color: lime;
+    height: 1000px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+
+}
+
+.objeto6 {
+
+    background-color: aqua;
+    height: 1000px;
+    width: 50%;
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: white;
+}
+
+.objeto1 {
+    background-color: red;
+    height: 500px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+}
+
+.objeto2 {
+    background-color: yellow;
+    height: 500px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+}
+
+.objeto3 {
+    background-color: blue;
+    height: 500px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+}
+
+.objeto4 {
+
+    background-color: magenta;
+    height: 500px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+
+}
+
+.objeto5 {
+    background-color: lime;
+    height: 500px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+
+
+}
+
+.objeto6 {
+
+    background-color: aqua;
+    height: 500px;
+    width: 50%;
+    margin: 125px 50px 125px 50px;
+
+}
+
+}
+
+
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+
+}
+
