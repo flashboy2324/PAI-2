@@ -8,6 +8,9 @@
     height: 1000px;
     width: 50%;
     margin: 125px 50px 125px 50px;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-property: width;
 
 
 }
@@ -50,6 +53,10 @@
     height: 1000px;
     width: 50%;
     display: none;
+}
+.objeto1:hover {
+    width: 100%;
+
 }
 }
 
@@ -72,6 +79,9 @@
     height: 500px;
     width: 50%;
     margin: 125px 50px 125px 50px;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-property: width;
 }
 
 .objeto2 {
@@ -115,9 +125,24 @@
 
 }
 
+.objeto1:hover {
+    width: 100%;
+
 }
 
 
+
+}
+
+
+// Transitions // 
+
+.rotate-center:hover {
+    transition-duration: 2s;
+    transition-delay: .5s;
+    transform: rotate(360deg);
+
+}
 
 
 .flex-container {
