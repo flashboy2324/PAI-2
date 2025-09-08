@@ -1,0 +1,54 @@
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+}
+
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;     
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;      
+  gap: 20px;  
+  justify-content: center;              
+}
+
+.fondoazul {
+    background-color:lightblue;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.fondorojo {
+    background-color: lightcoral;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.fondoverde {
+    background-color: lightgreen;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.fondovioleta {
+    background-color:lavender;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+
+}
