@@ -68,3 +68,20 @@
 
 }
 
+.desplazamiento {
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  position: relative;
+}
+
+@keyframes move{
+  0% {left: 0px;}
+  25% {left: 50px;}
+  50% {left: 0px;}
+  75% {left: -50px;}
+  100% {left: 0px;}
+
+}
+
